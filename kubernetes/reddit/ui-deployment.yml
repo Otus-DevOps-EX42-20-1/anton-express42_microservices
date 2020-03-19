@@ -1,4 +1,3 @@
-
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -21,7 +20,7 @@ spec:
         component: ui
     spec:
       containers:
-      - image: expresskurkin/ui
+      - image: iakrevetko/ui
         name: ui
         env:
         - name: ENV
