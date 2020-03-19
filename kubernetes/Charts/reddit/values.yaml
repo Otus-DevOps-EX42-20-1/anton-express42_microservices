@@ -1,0 +1,23 @@
+comment:
+  image:
+    repository: expresskurkin/comment
+    tag: latest
+  service:
+    externalPort: 9292
+
+post:
+  image:
+    repository: expresskurkin/post
+    tag: latest
+  service:
+    externalPort: 5000
+
+ui:
+  image:
+    repository: expresskurkin/ui
+    tag: latest
+  service:
+    externalPort: 9292
+
+mongodb:
+  usePassword: false
